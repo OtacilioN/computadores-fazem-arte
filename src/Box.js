@@ -22,7 +22,7 @@ class Box extends React.Component {
       <div
         onClick={() => this.setState({ hasBrother: true })}
         className="Box"
-        style={{ backgroundColor: this.state.color }}
+        style={{ backgroundColor: this.state.color, animation: 'slide-up 0.5s ease' }}
       />
     );
   }

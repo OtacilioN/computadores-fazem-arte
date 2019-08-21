@@ -4,7 +4,8 @@
 }
 
 .Container,
-.Box {
+.Box,
+.BoxRight {
   display: flex;
   flex: 1;
 }
@@ -17,11 +18,13 @@
   opacity: 0.8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes slide-up {
+  0% {
+    opacity: 1;
+    transform: translateY(20px);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
