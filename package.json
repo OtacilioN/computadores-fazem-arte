@@ -1,7 +1,9 @@
 {
-  "name": "react-box-experiment",
-  "version": "0.1.0",
+  "name": "computadores-fazem-arte",
+  "description": "Artistas fazem dinheiro",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "http://otacilion.github.io/computadores-fazem-arte",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
