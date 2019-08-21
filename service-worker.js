@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/computadores-fazem-arte/precache-manifest.60f59357260b1147f69ba9dfb00f0e83.js"
+  "/computadores-fazem-arte/precache-manifest.dcc523351a0497142b4c67ff7a73fec9.js"
 );
 
 self.addEventListener('message', (event) => {
